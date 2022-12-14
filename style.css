@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  font-size: 14px;
+}
+@import url(https://fonts.google.com/specimen/Fraunces);
+.main-container {
+  background-color: hsl(31, 49%, 87%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.content {
+  height: 550px;
+  width: 650px;
+  position: relative;
+}
+.left-side {
+  background: url(images/image-product-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: -30px;
+  height: 100%;
+  width: 57%;
+  position: absolute;
+  border-top-left-radius: 2%;
+  border-bottom-left-radius: 2%;
+}
+
+.right-side {
+  font-family: "Fraunces";
+  font-weight: 700;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  padding: 3em;
+  line-height: 33px;
+  text-align: left;
+  background-color: hsl(0, 0%, 100%);
+  border-top-right-radius: 3%;
+  border-bottom-right-radius: 3%;
+}
+
+.perfume {
+  font-size: 14px;
+  font-family: "Montserrat";
+  letter-spacing: 5px;
+  font-weight: 100;
+  color: hsl(228, 12%, 48%);
+}
+
+.text {
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 300;
+  color: hsl(228, 12%, 48%);
+}
+
+button {
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  width: 230px;
+  height: 50px;
+  border-radius: 10px;
+  border-style: none;
+  font-weight: 700;
+  font-family: "Fraunces";
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+h1 {
+  font-family: "Fraunces";
+  color: hsl(212, 21%, 14%);
+  font-size: 36px;
+  line-height: 1em;
+}
+
+.price {
+  font-size: 30px;
+  color: hsl(158, 36%, 37%);
+}
+.discount {
+  font-size: 12px;
+  font-family: "Montserrat";
+  text-decoration: line-through;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: hsl(158, 69%, 12%);
+}
+
+@media all and (max-width: 646px) {
+}
